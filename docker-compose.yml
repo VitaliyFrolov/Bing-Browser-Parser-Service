@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  bing-browser-parser-api: 
+    build: .
+    restart: "always"
+    container_name: "bing-browser-parser-api"
+    ports:
+      - "8000:8000"
