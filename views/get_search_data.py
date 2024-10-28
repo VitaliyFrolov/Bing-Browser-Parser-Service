@@ -2,6 +2,7 @@ import asyncio
 from fastapi import APIRouter
 from controllers.search import run_search
 
+
 router = APIRouter()
 
 @router.get('/search')
