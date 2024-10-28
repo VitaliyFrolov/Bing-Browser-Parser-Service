@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-def run_search(query):
+def run_search(query: str):
     url = f"https://www.bing.com/search?q={query}"
     response = requests.get(url)
 
